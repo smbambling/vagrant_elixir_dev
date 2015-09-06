@@ -1,0 +1,15 @@
+---
+## PKI Certificate: example.dev Wildcard ##
+certs_for_system:
+  \*.example.dev-server:
+    pkistore: 'custom'
+    customstore: {
+                  certfilename: '/etc/pki/tls/certs/*.example.dev-server.crt',
+                  keyfilename: '/etc/pki/tls/private/*.example.dev-server.key'
+                 }
+ca_certs_for_system:
+ example_dev_internal_ca:
+   pkistore: 'custom'
+   customstore: {
+                 certfilename: '/etc/pki/tls/certs/example_dev_internal_ca.crt'
+                }

@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "https://forgeapi.puppetlabs.com"
+
+# use dependencies defined in metadata.json
+#metadata
+
+# use dependencies defined in Modulefile
+# modulefile
+
+mod 'tykeal/sslmgmt',
+  :git => 'https://github.com/tykeal/puppet-sslmgmt.git',
+  :ref => 'bb13bc423b'
+
+mod 'puppetlabs-stdlib',
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :ref => '4.7.0'
+
+exclusion 'garethr-erlang'
+
+mod 'arin-erlang',
+  #:git => 'https://github.com/arineng/garethr-erlang.git',
+  :git => 'https://github.com/arineng/garethr-erlang.git',
+  :ref => '21c456e01a'
+
+mod 'arin-elixir',
+  #:git => 'https://github.com/garethr/garethr-elixir.git',
+  :git => 'https://github.com/arineng/garethr-elixir.git',
+  :ref => 'c9064e9'
+
+mod 'puppet/archive',
+  :git => 'https://github.com/puppet-community/puppet-archive.git',
+  :ref => '213780f388'
+
+exclusion 'nanliu-staging'
+
+mod 'puppet/staging',
+  :git => 'https://github.com/puppet-community/puppet-staging.git',
+  :ref => '9cfcdd3e25'

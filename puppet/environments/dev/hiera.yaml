@@ -1,0 +1,13 @@
+---
+:backends:
+  - yaml
+
+:hierarchy:
+  - "nodes/%{::clientcert}"
+  - "envtiers/%{::domain}"
+  - "pki/certs"
+  - "pki/ca_certs"
+  - "common"
+
+:yaml:
+  :datadir: '/vagrant/puppet/environments/dev/hieradata/'

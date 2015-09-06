@@ -1,0 +1,33 @@
+# Internal ARIN Certificate Authority CA #
+sslmgmt::ca:
+  example_dev_internal_ca: |
+                   -----BEGIN CERTIFICATE-----
+                   MIIFHjCCBAagAwIBAgIJAI9jqQlxAcaRMA0GCSqGSIb3DQEBCwUAMIG6MQswCQYD
+                   VQQGEwJVUzELMAkGA1UECBMCTlkxEzARBgNVBAcTCk1ldHJvcG9saXMxEDAOBgNV
+                   BAoTB0xleENvcnAxHjAcBgNVBAsTFVdlYXBvbnMgTWFudWZhY3R1cmluZzEXMBUG
+                   A1UEAxMOY2EuZXhhbXBsZS5kZXYxGjAYBgNVBCkTEWNhLmV4YW1wbGUuZGV2LWNh
+                   MSIwIAYJKoZIhvcNAQkBFhNyb290QGNhLmV4YW1wbGUuZGV2MB4XDTE1MDQwMzIy
+                   NDcxOVoXDTI1MDMzMTIyNDcxOVowgboxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJO
+                   WTETMBEGA1UEBxMKTWV0cm9wb2xpczEQMA4GA1UEChMHTGV4Q29ycDEeMBwGA1UE
+                   CxMVV2VhcG9ucyBNYW51ZmFjdHVyaW5nMRcwFQYDVQQDEw5jYS5leGFtcGxlLmRl
+                   djEaMBgGA1UEKRMRY2EuZXhhbXBsZS5kZXYtY2ExIjAgBgkqhkiG9w0BCQEWE3Jv
+                   b3RAY2EuZXhhbXBsZS5kZXYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+                   AQC55f7g9AhUkAv/3bUNt7myZdihE/+aX4O43dm2akBAPngiefM5Z0grS1cDd8nk
+                   ha1hr+ZBRCg2RDB9A5EcC1uhDgBY+VYBd5G/Cn+yEkUogo8zTkzCZgdivo2qwG/f
+                   /ICeo5ZiRu2nw2ySB0n9D8ajS7hUs2/28hagxDmfNE2cXUdMJ6xqh1P/cQIQp5Mt
+                   LrgAHMpg3eD35QCEBj3rL4NDUY04CKJZMRDtUBIgFi3L+4UHOucaQidp3/XWfFl+
+                   JIIegGIgYtejNiQ9wV8n5/J9Dtx/uCO77keWq22JBrx7p2B5j4E1MZdxOAlAbzgs
+                   UKUoLI4VQyJXJUbd0M9S7wBTAgMBAAGjggEjMIIBHzAdBgNVHQ4EFgQUOKU17tvS
+                   ce33OXKriLv3UMAblh8wge8GA1UdIwSB5zCB5IAUOKU17tvSce33OXKriLv3UMAb
+                   lh+hgcCkgb0wgboxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJOWTETMBEGA1UEBxMK
+                   TWV0cm9wb2xpczEQMA4GA1UEChMHTGV4Q29ycDEeMBwGA1UECxMVV2VhcG9ucyBN
+                   YW51ZmFjdHVyaW5nMRcwFQYDVQQDEw5jYS5leGFtcGxlLmRldjEaMBgGA1UEKRMR
+                   Y2EuZXhhbXBsZS5kZXYtY2ExIjAgBgkqhkiG9w0BCQEWE3Jvb3RAY2EuZXhhbXBs
+                   ZS5kZXaCCQCPY6kJcQHGkTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IB
+                   AQCAFEKNFVP14EZkcB1HXaAMxPxgApXAW2Kv6FgXjzamGNUK2czChnPYFarvTyPK
+                   2ywdf2aS8ldKwcA2KIMfey7Ujkvn6uUuZPzx8zBNQ1UNrW5ZRZcgmBRJWYHvQv2y
+                   8Bh52QnfudOqjAI28N9LClIfYxVvlUI/YV4qPIkLPWpM+FVMXatX6qezsEOQqxqq
+                   xOmKj+i8orYgOfmSe+BPJjcqqWGqz5IoCRh/58O5S40SbHRDliY6sU2zuwM9eyig
+                   tN6l9bVDxrIF5C0/uCcOc/xQhElBnHa1L3CYVBXOY7ilJDZJ/lOAu2hSA59k5Sfo
+                   FSWQDsFfsShsFUJL5eevaMcM
+                   -----END CERTIFICATE----- 
